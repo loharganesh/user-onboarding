@@ -1,0 +1,16 @@
+.button,
+.input,
+.plain-input {
+    @apply px-5 h-[50px] outline-none bg-white text-black duration-200;
+}
+
+.button {
+    @apply rounded-md font-bold;
+}
+.button.primary {
+    @apply bg-[#5a4ad1] text-white;
+}
+
+.input {
+    @apply border-2 rounded-md focus:border-[#5a4ad1];
+}

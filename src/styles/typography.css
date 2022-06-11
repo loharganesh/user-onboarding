@@ -1,0 +1,11 @@
+.heading {
+    @apply text-black font-bold font-[Poppins] text-[24px];
+}
+
+.title {
+    @apply text-black font-bold;
+}
+
+.caption {
+    @apply text-slate-500;
+}
